@@ -1,0 +1,57 @@
+[
+  {
+    "name": "chat-behavior",
+    "english_lines": 110,
+    "chinese_lines": 110,
+    "protected_text_matches": {
+      "xml_tags": true,
+      "runtime_placeholders": true,
+      "inline_code": true
+    },
+    "replacement_characters": 0
+  },
+  {
+    "name": "dispatch-orchestrator",
+    "english_lines": 31,
+    "chinese_lines": 31,
+    "protected_text_matches": {
+      "xml_tags": true,
+      "runtime_placeholders": true,
+      "inline_code": true
+    },
+    "replacement_characters": 0
+  },
+  {
+    "name": "memory-guidelines",
+    "english_lines": 132,
+    "chinese_lines": 132,
+    "protected_text_matches": {
+      "xml_tags": true,
+      "runtime_placeholders": true,
+      "inline_code": true
+    },
+    "replacement_characters": 0
+  },
+  {
+    "name": "memory-sensitive",
+    "english_lines": 11,
+    "chinese_lines": 11,
+    "protected_text_matches": {
+      "xml_tags": true,
+      "runtime_placeholders": true,
+      "inline_code": true
+    },
+    "replacement_characters": 0
+  },
+  {
+    "name": "aside-instructions",
+    "english_lines": 11,
+    "chinese_lines": 11,
+    "protected_text_matches": {
+      "xml_tags": true,
+      "runtime_placeholders": true,
+      "inline_code": true
+    },
+    "replacement_characters": 0
+  }
+]

@@ -4,6 +4,7 @@
 
 ## 阅读
 
+- [第二轮：提示词装配、记忆与执行边界，以及五份补充提示词的中英对照](round2/README.md)
 - [完整中文翻译](prompts/cowork-bundled-system-prompt.zh-CN.txt)
 - [完整英文原文](prompts/cowork-bundled-system-prompt.en.txt)
 - [来源与文件校验信息](provenance.json)

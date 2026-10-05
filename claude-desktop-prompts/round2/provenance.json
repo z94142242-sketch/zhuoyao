@@ -1,0 +1,371 @@
+{
+  "app_version": "2.19675.0.0",
+  "inspection_date": "2026-10-05",
+  "method": "Static JavaScript AST parsing and a restricted constant-expression evaluator; no app code executed.",
+  "offset_unit": "zero-based UTF-16 code units in the decoded source file; end exclusive",
+  "runtime_session_verified": false,
+  "source_files": [
+    {
+      "source_entry": ".vite/build/index.chunk-BiNk0YJv.js",
+      "sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "matches_pre_localization_backup": true
+    },
+    {
+      "source_entry": ".vite/build/index.chunk-BxH9TV_3.js",
+      "sha256": "acd22d3f5ccdad2f5f865800950a77926fb9fe9cd26ef9f6e0e4faaf26b5a1bb",
+      "matches_pre_localization_backup": true
+    },
+    {
+      "source_entry": ".vite/build/index.chunk-_F9mV1Ib.js",
+      "sha256": "1b8e41b4f9d7301a732b7b01a5eecf53322e0b0d3907303576f3fc3cef752378",
+      "matches_pre_localization_backup": true
+    },
+    {
+      "source_entry": ".vite/build/index.chunk-cz5TcuPg.js",
+      "sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "matches_pre_localization_backup": true
+    }
+  ],
+  "nodes": [
+    {
+      "file": "index.chunk-BiNk0YJv.js",
+      "symbol": "rk",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 595108,
+      "end_utf16": 595492,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-BiNk0YJv.js",
+      "symbol": "nk",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 594763,
+      "end_utf16": 595108,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-BiNk0YJv.js",
+      "symbol": "YO",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 591790,
+      "end_utf16": 592133,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-BiNk0YJv.js",
+      "symbol": "JO",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 578029,
+      "end_utf16": 591790,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-BiNk0YJv.js",
+      "symbol": "HO",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 572911,
+      "end_utf16": 576761,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-BiNk0YJv.js",
+      "symbol": "jO",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 539278,
+      "end_utf16": 557010,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-BiNk0YJv.js",
+      "symbol": "AO",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 534441,
+      "end_utf16": 539274,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-BiNk0YJv.js",
+      "symbol": "Gn",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 44292,
+      "end_utf16": 45532,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-BiNk0YJv.js",
+      "symbol": "Wn",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 41715,
+      "end_utf16": 44291,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "ensureMemoryIndexSnapshot",
+      "node_type": "MethodDefinition",
+      "start_utf16": 470612,
+      "end_utf16": 471028,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Zf",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 299438,
+      "end_utf16": 299764,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "hf",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 277436,
+      "end_utf16": 278202,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Gd",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 275030,
+      "end_utf16": 275115,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Wd",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 274126,
+      "end_utf16": 275029,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Ud",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 273775,
+      "end_utf16": 274122,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Hd",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 273756,
+      "end_utf16": 273774,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Vd",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 272866,
+      "end_utf16": 273755,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Bd",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 271699,
+      "end_utf16": 272865,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "zd",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 269439,
+      "end_utf16": 271698,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Rd",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 268886,
+      "end_utf16": 269438,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Ld",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 268397,
+      "end_utf16": 268885,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Id",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 267824,
+      "end_utf16": 268396,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Fd",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 259901,
+      "end_utf16": 267823,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Pd",
+      "node_type": "VariableDeclarator",
+      "start_utf16": 259771,
+      "end_utf16": 259900,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": true
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Ad",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 258782,
+      "end_utf16": 259700,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-cz5TcuPg.js",
+      "symbol": "fn",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 38939,
+      "end_utf16": 39765,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-BxH9TV_3.js",
+      "symbol": "Ef",
+      "node_type": "FunctionDeclaration",
+      "start_utf16": 306071,
+      "end_utf16": 307089,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "acd22d3f5ccdad2f5f865800950a77926fb9fe9cd26ef9f6e0e4faaf26b5a1bb",
+      "has_plain_text": false
+    },
+    {
+      "file": "index.chunk-_F9mV1Ib.js",
+      "symbol": "generateSkillsSystemPrompt",
+      "node_type": "MethodDefinition",
+      "start_utf16": 50265,
+      "end_utf16": 56593,
+      "start_line": 1,
+      "end_line": 1,
+      "source_file_sha256": "1b8e41b4f9d7301a732b7b01a5eecf53322e0b0d3907303576f3fc3cef752378",
+      "has_plain_text": false
+    }
+  ],
+  "published_prompts": [
+    {
+      "name": "chat-behavior",
+      "source_file": "index.chunk-BiNk0YJv.js",
+      "symbol": "jO",
+      "scope": "Complete text value of the named bundled constant; not the complete effective session prompt."
+    },
+    {
+      "name": "dispatch-orchestrator",
+      "source_file": "index.chunk-BiNk0YJv.js",
+      "symbol": "HO",
+      "scope": "Complete text value of the named bundled constant; not the complete effective session prompt."
+    },
+    {
+      "name": "memory-guidelines",
+      "source_file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Vd",
+      "scope": "Complete text value of the named bundled constant; not the complete effective session prompt."
+    },
+    {
+      "name": "memory-sensitive",
+      "source_file": "index.chunk-cz5TcuPg.js",
+      "symbol": "Wd",
+      "scope": "Complete text value of the named bundled constant; not the complete effective session prompt."
+    },
+    {
+      "name": "aside-instructions",
+      "source_file": "index.chunk-BxH9TV_3.js",
+      "symbol": "Ef",
+      "scope": "Unexpanded user-message expression ${e} retained."
+    }
+  ]
+}
