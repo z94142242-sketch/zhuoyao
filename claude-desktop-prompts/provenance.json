@@ -1,0 +1,31 @@
+{
+  "inspection_date": "2026-10-05",
+  "product": "Claude Desktop",
+  "app_version": "2.19675.0.0",
+  "platform": "Windows ARM64",
+  "source_archive": "app/resources/app.asar",
+  "inspected_archive_sha256": "4a8dc2308825d28033a04526a82e509b5284ca2d405d49793bbafd11f1c1a45c",
+  "inspected_archive_note": "Locally installed archive from a previously localized client; not asserted to be the pristine vendor archive hash.",
+  "source_entry": ".vite/build/index.chunk-BcYASoX4.js",
+  "template_variable": "jWt",
+  "template_export_alias": "TU",
+  "provider_selection_entry": ".vite/build/index.chunk-cz5TcuPg.js",
+  "bundled_template_selected_in_provider_branch": "3p",
+  "prompt_equals_pre_localization_backup": true,
+  "complete_runtime_session_prompt_verified": false,
+  "prompt_characters": 37811,
+  "prompt_lines": 441,
+  "prompt_english_whitespace_words": 5701,
+  "files": [
+    {
+      "path": "prompts/cowork-bundled-system-prompt.en.txt",
+      "bytes": 38327,
+      "sha256": "147440d0517421e9207bf312fa4ee48eb7b5ee2bca1de6eed8e9daf30b59fd2d"
+    },
+    {
+      "path": "prompts/cowork-bundled-system-prompt.zh-CN.txt",
+      "bytes": 34518,
+      "sha256": "b6425601a4233f5d827e7d54354039f02a97c8d739737836ab6cb6cefe40b0b5"
+    }
+  ]
+}

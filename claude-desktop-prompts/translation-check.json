@@ -1,0 +1,25 @@
+{
+  "original_lines": 441,
+  "translated_lines": 441,
+  "blank_line_mismatches": [],
+  "protected_text": {
+    "placeholders": {
+      "same": true,
+      "missing": [],
+      "added": []
+    },
+    "xml_tags": {
+      "same": true,
+      "missing": [],
+      "added": []
+    },
+    "inline_code": {
+      "same": true,
+      "missing": [],
+      "added": []
+    }
+  },
+  "untranslated_prose_candidates": [],
+  "has_replacement_character": false,
+  "chinese_characters": 8243
+}
