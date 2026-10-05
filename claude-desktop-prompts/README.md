@@ -4,6 +4,7 @@
 
 ## 阅读
 
+- [第三轮：会话状态、停止与恢复、后台调度、审批，以及仪表盘单次模型调用](round3/README.md)
 - [第二轮：提示词装配、记忆与执行边界，以及五份补充提示词的中英对照](round2/README.md)
 - [完整中文翻译](prompts/cowork-bundled-system-prompt.zh-CN.txt)
 - [完整英文原文](prompts/cowork-bundled-system-prompt.en.txt)

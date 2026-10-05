@@ -1,0 +1,38 @@
+{
+  "all_passed": true,
+  "prompt_pairs": [
+    {
+      "name": "scheduled-tasks",
+      "english_lines": 18,
+      "chinese_lines": 18,
+      "line_count_equal": true,
+      "no_replacement_characters": true,
+      "xml_tags_equal": true,
+      "template_placeholders_equal": true,
+      "inline_code_equal": true
+    },
+    {
+      "name": "artifacts-template",
+      "english_lines": 23,
+      "chinese_lines": 23,
+      "line_count_equal": true,
+      "no_replacement_characters": true,
+      "xml_tags_equal": true,
+      "template_placeholders_equal": true,
+      "inline_code_equal": true
+    },
+    {
+      "name": "dashboard-synthesis",
+      "english_lines": 11,
+      "chinese_lines": 11,
+      "line_count_equal": true,
+      "no_replacement_characters": true,
+      "xml_tags_equal": true,
+      "template_placeholders_equal": true,
+      "inline_code_equal": true
+    }
+  ],
+  "artifact_option_keys_equal": true,
+  "artifact_option_empty_branches_preserved": true,
+  "scope": "Structural validation plus human-readable translation review. It does not prove runtime prompt selection."
+}

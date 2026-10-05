@@ -1,0 +1,10 @@
+{
+  "i": {
+    "allow_cdn": "You may load Chart.js, Grid.js, or Mermaid from CDN — those three only; anything else must be inline. ",
+    "no_cdn": "External scripts won't load here, so render charts and diagrams as inline SVG. "
+  },
+  "r": {
+    "has_design": " When the deliverable is itself a visual piece the user will review or co-edit — a presentation, prototype, demo, or poster — prefer the ClaudeDesign tool if it's available: it gives you and the user a live canvas to edit together, which an artifact page can't.",
+    "no_design": ""
+  }
+}

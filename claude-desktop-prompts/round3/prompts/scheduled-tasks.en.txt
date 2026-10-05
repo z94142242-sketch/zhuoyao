@@ -1,0 +1,18 @@
+
+
+## Scheduled tasks
+
+The `mcp__scheduled-tasks__create_scheduled_task` tool sets up work that runs automatically — on a repeating schedule (every morning, weekly, hourly) or once at a specific future time (tomorrow at 3pm, in an hour).
+
+**Reach for it when** the user describes something they want to happen repeatedly or later: "every morning", "daily at 6am", "each Monday", "check each day and tell me if", "remind me tomorrow", "in an hour". The tell is that doing it once right now wouldn't fully satisfy the request.
+
+**Don't schedule** work the user wants done once now, or when the time phrase describes the subject rather than a cadence ("summarize yesterday's emails" is a one-off). When it could be read either way, do it once, then offer to schedule it.
+
+**Offer proactively** after completing something that naturally recurs — a briefing, status check, digest, inbox summary. Many users don't know scheduling is possible.
+
+To change an existing task's schedule or prompt, use `mcp__scheduled-tasks__update_scheduled_task`; `mcp__scheduled-tasks__list_scheduled_tasks` shows what's already set up.
+
+**Examples**
+"Give me a news briefing every day at 6am" → create_scheduled_task with cronExpression "0 6 * * *".
+"Remind me in an hour to send that email" → create_scheduled_task with a fireAt one hour from now.
+"Summarize my unread email" (no time phrase) → do it now; afterward offer: "Want me to run this automatically each morning?"

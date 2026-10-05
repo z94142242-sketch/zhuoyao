@@ -1,0 +1,321 @@
+{
+  "inspection_date": "2026-10-05",
+  "application": "Claude Desktop",
+  "version": "2.19675.0.0",
+  "platform": "Windows ARM64",
+  "installed_archive_sha256": "4a8dc2308825d28033a04526a82e509b5284ca2d405d49793bbafd11f1c1a45c",
+  "archive_context": "Installed package has a local UI translation patch. This hash is not presented as a pristine vendor archive hash. Every source file used in this round was also compared byte-for-byte with the same-version pre-localization backup.",
+  "method": "Read-only ASAR extraction and Acorn AST/static constant inspection. Product code was never executed. Runtime configuration and effective prompts were not queried.",
+  "source_files": [
+    {
+      "path": ".vite/build/index.chunk-cz5TcuPg.js",
+      "sha256": "fcc0e18dbfdf8ad1595e8b196e9a7762f61e2b6153afdf025eb4feccb3e8776a",
+      "bytes": 557411,
+      "matches_installed_archive": true,
+      "byte_equal_to_pre_localization_backup": true
+    },
+    {
+      "path": ".vite/build/index.chunk-BcYASoX4.js",
+      "sha256": "7514a5646022a5c12fd12a42c76573e054877bdaa652f61abadbb609360d69c1",
+      "bytes": 7067624,
+      "matches_installed_archive": true,
+      "byte_equal_to_pre_localization_backup": true
+    },
+    {
+      "path": ".vite/build/index.chunk-XrVlDENe.js",
+      "sha256": "435b30d833a2eba8e7d417842828ccf6e25a3cf3a588ded46f7ef4817a935588",
+      "bytes": 5704,
+      "matches_installed_archive": true,
+      "byte_equal_to_pre_localization_backup": true
+    },
+    {
+      "path": ".vite/build/index.chunk-BiNk0YJv.js",
+      "sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "bytes": 648189,
+      "matches_installed_archive": true,
+      "byte_equal_to_pre_localization_backup": true
+    },
+    {
+      "path": ".vite/build/coworkArtifact.js",
+      "sha256": "c123e89ea064eef2f25dc41a02a50f272b834e4b6dc188589c9600c11a04b026",
+      "bytes": 2596,
+      "matches_installed_archive": true,
+      "byte_equal_to_pre_localization_backup": true
+    }
+  ],
+  "prompts": [
+    {
+      "name": "scheduled-tasks",
+      "source_file": "index.chunk-BiNk0YJv.js",
+      "symbol": "zO",
+      "start_utf16": 566433,
+      "end_utf16": 567845,
+      "source_sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "text_characters": 1448,
+      "normalization": "Static tool aliases resolved without executing the function."
+    },
+    {
+      "name": "artifacts-template",
+      "source_file": "index.chunk-BiNk0YJv.js",
+      "symbol": "BO",
+      "start_utf16": 567845,
+      "end_utf16": 570985,
+      "source_sha256": "2b5e456508c3a85c9a8d5433a27a2add4d61ae2dc28977a93707687f4432b567",
+      "text_characters": 2576,
+      "normalization": "Static tool aliases resolved; concatenated local variables i and r represented as ${i} and ${r}."
+    },
+    {
+      "name": "dashboard-synthesis",
+      "source_file": "index.chunk-BcYASoX4.js",
+      "symbol": "$Bi",
+      "start_utf16": 5805566,
+      "end_utf16": 5806405,
+      "source_sha256": "7514a5646022a5c12fd12a42c76573e054877bdaa652f61abadbb609360d69c1",
+      "text_characters": 800,
+      "normalization": "Runtime UTC date expression retained as an unexpanded ${...} expression."
+    }
+  ],
+  "evidence_excerpts": [
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "VALID_TRANSITIONS",
+      "start_utf16": 469837,
+      "end_utf16": 470083,
+      "line": 1,
+      "excerpt_sha256": "c777625313d3a038b1388e6de791a7a7f5a4162bf99c0bdef3307412ae845bd3"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "transitionTo",
+      "start_utf16": 471944,
+      "end_utf16": 476794,
+      "line": 1,
+      "excerpt_sha256": "88a19199fd47ac568cb283a321135339a4ea8e6ccb30227ea0fd7f13ede501cb"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "teardownIdleProcess",
+      "start_utf16": 465349,
+      "end_utf16": 465969,
+      "line": 1,
+      "excerpt_sha256": "ad7819b4cc715ed32cb801bac90aad8073c4a1bb70c34dc4a869824a68d4273b"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "sa",
+      "start_utf16": 82391,
+      "end_utf16": 82637,
+      "line": 1,
+      "excerpt_sha256": "999c107612699c911f0fc8ff3f66e6e647bc25bfe520a63974c9277e8ad27b9b"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "stopSession",
+      "start_utf16": 510970,
+      "end_utf16": 512161,
+      "line": 1,
+      "excerpt_sha256": "0d70020f9ef280b6a90b4bc88be90663aab3eff059c7e09beca096de4975b529"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "interruptTurn",
+      "start_utf16": 505657,
+      "end_utf16": 506644,
+      "line": 1,
+      "excerpt_sha256": "26228d044f8c25b24faa281ffbeaa42569dd5a1fe8c00267093beedeee16fe7a"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "drainPendingStartMessages",
+      "start_utf16": 482640,
+      "end_utf16": 483814,
+      "line": 1,
+      "excerpt_sha256": "73663894bc5f14de4e79f2cac452ed50ef022612e41b58327bab942b88d33119"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "writeSessionToDisk",
+      "start_utf16": 450673,
+      "end_utf16": 454014,
+      "line": 1,
+      "excerpt_sha256": "860cde2ac8f031a3e7d74995faafbbb759b31d4662f4e6407187b116cc621f9f"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "loadSessions",
+      "start_utf16": 445292,
+      "end_utf16": 449983,
+      "line": 1,
+      "excerpt_sha256": "f5e036c883ccdbdd1b25d9a743602223ee2c4ae90125b075ad5ad2300665471e"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "resume / resumeSessionAt / forkSession",
+      "start_utf16": 368350,
+      "end_utf16": 368861,
+      "line": 1,
+      "excerpt_sha256": "6aaef4e7836bbddabe0ba9f7c22ae7efaa03459b9cd9828050220a29199fc529"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "pendingPermissions request schema",
+      "start_utf16": 222003,
+      "end_utf16": 222384,
+      "line": 1,
+      "excerpt_sha256": "b2cd3ea08a6d841ba0c8c7c65cfeabb3e03dba75e18e5edf65ed7fd1f29a33e4"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "resolvePendingPermission",
+      "start_utf16": 227685,
+      "end_utf16": 229867,
+      "line": 1,
+      "excerpt_sha256": "ae106224649d1c1c38fa2cf0029e463507341172c1ad28e8b0fdd39ac46d42fe"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "denyPendingPermissionsForSession",
+      "start_utf16": 229867,
+      "end_utf16": 230087,
+      "line": 1,
+      "excerpt_sha256": "0e0017ec6b118c747e5b412837f785607e281dda85571db4e838ab06912e4679"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-BcYASoX4.js",
+      "label": "shouldAutoApprovePermission",
+      "start_utf16": 5750464,
+      "end_utf16": 5752908,
+      "line": 13,
+      "excerpt_sha256": "9d9762b85bc928441460aa8586d3c9845f0b4c3254b47e88cf8c8f9008383875"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-BcYASoX4.js",
+      "label": "isApprovalExpired",
+      "start_utf16": 5749563,
+      "end_utf16": 5749728,
+      "line": 13,
+      "excerpt_sha256": "05425ccacdee08e48952ce15666b62545a95a1c5a841e083387a8307fdd736a1"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-BcYASoX4.js",
+      "label": "checkScheduledTasksInner",
+      "start_utf16": 5737838,
+      "end_utf16": 5743864,
+      "line": 13,
+      "excerpt_sha256": "c22c1cf14c0d4de2d31e18f35a07074c9a39d5c95a5eb7daf5678709b0c87489"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-BcYASoX4.js",
+      "label": "runWatcherGate",
+      "start_utf16": 5731920,
+      "end_utf16": 5733354,
+      "line": 13,
+      "excerpt_sha256": "d93fa2f57fb24dc96a151c4d618c9f3340c239030ed868225b894383f1846f6d"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "reapTimedOutScheduledRun",
+      "start_utf16": 463150,
+      "end_utf16": 464133,
+      "line": 1,
+      "excerpt_sha256": "6ca019b3d372afbe0bf76fabb9710abaf7143680da2f7bfba35b5296c9c9a7ea"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "isScheduledTaskReapEnabled",
+      "start_utf16": 462955,
+      "end_utf16": 463052,
+      "line": 1,
+      "excerpt_sha256": "f2ded96087d94076b477eaaecc13214e56c92b882e4ce713364a13b01800a6aa"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-cz5TcuPg.js",
+      "label": "isScheduledTaskReapDenyEnabled",
+      "start_utf16": 463052,
+      "end_utf16": 463150,
+      "line": 1,
+      "excerpt_sha256": "d3a50812a5bd1994071f1284e622aff7752bb13e59ec47f9bcfbd4dbae60743d"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-BcYASoX4.js",
+      "label": "$Bi",
+      "start_utf16": 5805566,
+      "end_utf16": 5806405,
+      "line": 13,
+      "excerpt_sha256": "337b1565e2ce817f8f021d4ddb76781108185323a35d4b158bf3b84db6779490"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-BcYASoX4.js",
+      "label": "vHi",
+      "start_utf16": 5821372,
+      "end_utf16": 5821437,
+      "line": 13,
+      "excerpt_sha256": "db2bcb0626711ef38804341b6d0860df2c08587cee01fd03cf50fde665d09774"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-XrVlDENe.js",
+      "label": "p",
+      "start_utf16": 2642,
+      "end_utf16": 5394,
+      "line": 1,
+      "excerpt_sha256": "4562d673b4e94497a07e33ef43bfb89889431266bfc928e9c362be675e0b0d48"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-XrVlDENe.js",
+      "label": "f",
+      "start_utf16": 2457,
+      "end_utf16": 2642,
+      "line": 1,
+      "excerpt_sha256": "aec0247a8259e2257182ecc08410eaef1cdb9f076287511e44694dfd113023ee"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-XrVlDENe.js",
+      "label": "credential revocation cancels in-flight sampling",
+      "start_utf16": 5394,
+      "end_utf16": 5502,
+      "line": 1,
+      "excerpt_sha256": "cd6f595250dc1044f6510337393b2d1f54025e41b963dd1ee754a99c7236cb19"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-BcYASoX4.js",
+      "label": "askClaude artifact cache and dispatch",
+      "start_utf16": 5829080,
+      "end_utf16": 5830988,
+      "line": 13,
+      "excerpt_sha256": "ca979a2a19b56453b39e44eb06648d3dee23354ed0dce0a07058872e1b1fcc46"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-BcYASoX4.js",
+      "label": "cache expiry, serialized writes and size limits",
+      "start_utf16": 5802149,
+      "end_utf16": 5803197,
+      "line": 13,
+      "excerpt_sha256": "3e6bdbf448f5a798ef9d39ad16619c45d5292560341ca2b46f25067c5dcaaa20"
+    },
+    {
+      "source_file": ".vite/build/coworkArtifact.js",
+      "label": "preload bridge",
+      "start_utf16": 0,
+      "end_utf16": 2596,
+      "line": 1,
+      "excerpt_sha256": "c123e89ea064eef2f25dc41a02a50f272b834e4b6dc188589c9600c11a04b026"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-BcYASoX4.js",
+      "label": "callMcpTool declaration and visibility checks",
+      "start_utf16": 5830990,
+      "end_utf16": 5834484,
+      "line": 13,
+      "excerpt_sha256": "3815ecfa87dcc13626bac083575eea7bf49ac1602bfe02c079083b7bb9d82314"
+    },
+    {
+      "source_file": ".vite/build/index.chunk-BcYASoX4.js",
+      "label": "runScheduledTask user activation and confirmation",
+      "start_utf16": 5834484,
+      "end_utf16": 5835672,
+      "line": 13,
+      "excerpt_sha256": "69961b088c76f2a9bbf6edb1a26d3a9b1c7f81b73f6716bcc1d05f028ea6a36b"
+    }
+  ],
+  "privacy_scope": "Only bundled program text and source schemas were inspected. No actual session records, memory contents, credentials, account identifiers, email or refund material are included."
+}
